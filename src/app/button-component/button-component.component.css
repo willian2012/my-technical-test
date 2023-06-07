@@ -1,3 +1,5 @@
+/* Aplica estilos al componente "ButtonComponent" para que el botón tenga un fondo azul
+ (#007bff), texto blanco y un padding de 10px 20px. */
 .btn {
     margin: 100px auto;
     background-color: #007bff;
@@ -7,7 +9,9 @@
     border: none;
     border-radius: 5px;
 }
-
+/* Crea una clase CSS llamada "hover-effect" que cambie el color de fondo de un 
+elemento a rojo (#ff0000) cuando se le haga hover. Aplica esta clase al botón del 
+componente "ButtonComponent". */
 .hover-effect:hover {
     background-color: #ff0000;
 }

@@ -1,3 +1,5 @@
+/* Aplica estilos al componente "HeaderComponent" para que el elemento <header> 
+tenga un fondo gris (#f1f1f1), texto centrado y un padding de 20px. */
 .top-bar {
     position: fixed;
     /* Display flex y sus caracteristicas son opcionales */
@@ -10,11 +12,13 @@
     max-height: 60px;
     background-color: #f1f1f1;
 }
-
+/* Se aplica la metodología BEM para el titulo */
 .top-bar .top-bar__title {
     font-size: 2rem;
     color: #000;
 }
+/* Crea una clase CSS llamada "highlight" que cambie el color de fondo de un elemento 
+a amarillo (#ffff00). Aplica esta clase al elemento <header> del componente "HeaderComponent". */
 .highlight {
     background-color: #ffff00;
 }
